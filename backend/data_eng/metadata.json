@@ -1,0 +1,61 @@
+{
+  "datasets": {
+		"calendar": [
+			"listing_id",
+			"date",
+			"available",
+			"price"
+		],
+		"listings": [
+    "id",
+   "host_id",
+   "host_response_rate" ,
+   "host_acceptance_rate" ,
+   "host_is_superhost" ,
+   "host_listings_count" ,
+   "host_total_listings_count" ,
+   "host_identity_verified" ,
+   "neighbourhood_cleansed" ,
+   "calculated_host_listings_count" ,
+   "city" ,
+   "state" ,
+   "zipcode" ,
+   "country" ,
+   "latitude" ,
+   "longitude" ,
+   "property_type" ,
+   "room_type" ,
+   "accommodates" ,
+   "bathrooms" ,
+   "bedrooms" ,
+   "beds" ,
+   "price" ,
+   "availability_30" ,
+   "availability_60" ,
+   "availability_90" ,
+   "availability_365" ,
+   "number_of_reviews" ,
+   "review_scores_rating" ,
+   "reviews_per_month"
+		],
+
+
+		"reviews": [
+			"listing_id",
+			"id",
+			"date",
+			"reviewer_id",
+			"reviewer_name",
+			"comments"
+		],
+		"sources": [
+				"http://data.insideairbnb.com"
+		],
+		"files": [
+			"reviews.csv.gz",
+			"listings.csv",
+			"calendar.csv.gz"
+		]
+  }
+
+}

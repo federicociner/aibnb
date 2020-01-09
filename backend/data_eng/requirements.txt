@@ -1,0 +1,9 @@
+pandas
+dask
+distributed
+mysql-connector
+bs4
+requests
+dask
+distributed
+lxml
