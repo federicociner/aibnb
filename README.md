@@ -8,7 +8,7 @@ Airbnb is an online platform that enablespeople to lease or rent properties for 
 
 The AIBNB application is composed of four different components - data engineering, REST API, analytics and frontend.
 
-![Infrastructure](img/infrastructure.png)
+![Infrastructure](images/infrastructure.png)
 
 See below for a description of each component:
 
@@ -23,6 +23,8 @@ See below for a description of each component:
    * Use the XGBoost pricing model to predict rental prices for a set of listing IDs across various calendar dates
 
 4. The frontend component is a data-driven application and map-based UI used to allow users to interact with the results of our model's predicted prices. It was built using React and interacts with the MapBox API to display listing data for all locations available in our datasets.
+
+![UI](images/aibnb_ui.png)
 
 ## Installation
 

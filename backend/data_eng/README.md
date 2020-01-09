@@ -9,7 +9,6 @@ This  module contains  code to perform the following tasks:
 * Import the data to a relational database on AWS.
 * Publish the data via a REST API
 
-
 ## Instructions
 
 The instructions below assume the following pre-requisites have been met:
@@ -19,22 +18,22 @@ The instructions below assume the following pre-requisites have been met:
 
 ### Step 1 - Collect, clean, and import data to Database
 
- Execute  `data_eng_pipeline.sh`  in the data_eng root folder. This script will perform the following tasks in sequence :
+Execute  `data_eng_pipeline.sh`  in the data_eng root folder. This script will perform the following tasks in sequence:
 
-a) Collection
-  ./listings/collect.py
-  ./reviews/collect.py
-  ./calendar/collect.py
+1. Collection
+   * ./listings/collect.py
+   * ./reviews/collect.py
+   * ./calendar/collect.py
 
-b) Cleaning
-  ./listings/clean.py
-  ./reviews/clean.py
-  ./calendar/clean.py
+1. Cleaning
+   * ./listings/clean.py
+   * ./reviews/clean.py
+   * ./calendar/clean.py
 
-c) Import data to Database
-  ./listings/integrate.sh
-  ./reviews/integrate.sh
-  ./calendar/integrate.sh
+1. Import data to Database
+   * ./listings/integrate.sh
+   * ./reviews/integrate.sh
+   * ./calendar/integrate.sh
 
 ### Step 2 - Deploy REST API
 
