@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Airbnb is an online platform that enablespeople to lease or rent properties for shor-term stays. Our goal in this project was to make use of historical Airbnb listings data, as well as user review sentiment data, to provide point-in-time rental price predictions for large metropolitan areas and major cities. We aim to use sentiment analysis and gradient boosted regression trees with the XGBoost algorithm to generate these predictions and share them with users via a web-based visualization tool.
+Our goal in this project was to make use of historical Airbnb listings data, as well as user review sentiment data, to provide point-in-time rental price predictions for large metropolitan areas and major cities. We aimed to use sentiment analysis and gradient boosted regression trees with the XGBoost algorithm to generate these predictions and share them with users via a web-based visualization tool.
 
 ## Description
 
